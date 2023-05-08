@@ -7,13 +7,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      '008BEA':'#008BEA'
-    },
+    
     spacing: {
       '97':'97px'
     },
-    extend: {},
+    extend: {
+      colors: {
+        '008BEA':'#008BEA'
+      },
+      backgroundImage: {
+        'banner': "url('/Component 49.png')",
+      }
+    },
   },
   plugins: [],
 }

@@ -5,3 +5,7 @@
 .center {
   @apply flex items-center
 }
+
+.full_sem_nav {
+  height: calc(100vh - 66px);
+}
